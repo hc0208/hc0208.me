@@ -1,0 +1,137 @@
+body{
+  font-family: メイリオ, sans-serifS;
+}
+.i_btn{
+  margin: 10px;
+}
+
+a{
+  text-align: center;
+}
+
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+.icon a:hover{
+  color: #D3D3D3;
+  top:1px;
+  left:1px;
+  position:relative;
+}
+a:active{
+  color: white;
+}
+
+.icon{
+  padding: 10px;
+  float: right;
+  opacity: 0.9;
+  color: white;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 54px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, .1);
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 54px;
+  opacity: 0.9;
+}
+.button::before,
+.button::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button,
+.button::before,
+.button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, .3);
+  letter-spacing: 5px;
+  cursor: pointer;
+ /* border-color: #59b1eb;
+  color: #59b1eb;*/
+}
+.maincontents{
+  margin: 5px;
+  padding: 50px 5px 5px 5px;
+}
+.btn{
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+.m_btn{
+  margin: 120px 5px;
+}
+.left_btn{
+  float: left;
+}
+.right_btn{
+  float: right;
+}
+
+.modaltitle{
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+
+.profile{
+  margin: 0 auto;
+}
+
+.leftcontent{
+  float: left;
+}
+
+.rightcontent{
+  float: right;
+}
+
+@media screen and ( max-width:479px ){
+  .m_btn{
+    margin: 20px;
+  }
+  .left_btn{
+    float: none;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+  }
+  .right_btn{
+    float: none;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+  }
+  .leftcontent{
+    float: none;
+  }
+
+  .rightcontent{
+    float: none;
+  }
+}
