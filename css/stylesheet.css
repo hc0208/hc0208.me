@@ -111,6 +111,14 @@ a:active{
   float: right;
 }
 
+footer{
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  bottom: 10px;
+  font-size: 15px;
+}
+
 @media screen and ( max-width:479px ){
   .m_btn{
     margin: 20px;
