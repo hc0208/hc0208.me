@@ -75,7 +75,8 @@ a:active{
   color: #59b1eb;*/
 }
 .maincontents{
-  margin: 5px;
+  margin: 0px auto;
+  width: 810px;
   padding: 80px 5px 5px 5px;
 }
 .btn{
@@ -117,6 +118,14 @@ footer{
   color: white;
   bottom: 10px;
   font-size: 15px;
+}
+
+@media screen and ( max-width:810px ){
+  .maincontents{
+    width: auto;
+    margin: 5px;
+    padding: 80px 5px 5px 5px;
+  }
 }
 
 @media screen and ( max-width:479px ){
