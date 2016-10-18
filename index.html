@@ -5,14 +5,15 @@
   <title>Portfolio Site</title>
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="css/font-awesome.min.css" >
-  <link rel="stylesheet" href="css/remodal.css">
-  <link rel="stylesheet" href="css/remodal-default-theme.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 <body>
   <header>
-    <div class="i_btn clearfix">
+    <div class="menu clearfix">
+      <a class="button" href="index.html">Profile</a>
+      <a class="button" href="work.html">Work</a>
+      <a class="button" href="qiita.html">Qiita</a>
       <div class="icon">
         <a href="https://www.instagram.com/hc0208/"><i class="fa fa-instagram fa-2x"></i></a>
       </div>
@@ -27,32 +28,10 @@
       </div>
     </div>
   </header>
-  <div class="maincontents">
-    <div class="btn">
-      <a class="button" href="#profile">Profile</a>
-    </div>
-    <div class="m_btn clearfix">
-      <div class="left_btn">
-        <a class="button" href="#work">Work</a>
-      </div>
-      <div class="right_btn">
-        <a class="button" href="#">Coming soon</a>
-      </div>
-    </div>
-    <div class="btn">
-      <a class="button" href="#contact">Contact</a>
-    </div>
-  </div>
-
-  <footer>
-    © Hiroki Chida
-  </footer>
-
-  <div class="remodal" data-remodal-id="profile" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-    <div>
-      <h2 class="modaltitle">Profile</h2>
-      <table class="profile">
+  <div class="common_sub sub_header">
+    <div class="main_content">
+      <h2>Profile</h2>
+      <table>
         <tr>
           <th align="left">Name </th>
           <td align="left">Hiroki Chida</td>
@@ -66,79 +45,14 @@
           <td align="left">Ruby RoR HTML CSS<br>インドネシア語</td>
         </tr>
       </table>
-      <p>慶應義塾大学総合政策学部2年。大学2年次に休学しインドネシアのSriwijaya大学へ1年間国費留学。帰国後プログラミングを始め、ベンチャー企業2社でエンジニアとしてインターン中。</p>
+      <p>慶應義塾大学総合政策学部3年。<br>
+      大学2年次に休学しインドネシアのSriwijaya大学へ1年間国費留学。<br>
+      帰国後プログラミングを始め、ベンチャー企業2社でエンジニアとしてインターン中。</p>
     </div>
-    <br>
-    <a data-remodal-action="cancel" class="button">Close</a>
   </div>
 
-  <div class="remodal" data-remodal-id="work" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-    <div class="clearfix">
-      <h2 class="modaltitle">Work</h2>
-        <div class="leftcontent">
-          <a href="http://idjepang.com/"><img src="img/idjepang.png" width="128" height="128"></a>
-        </div>
-        <div class="rightcontent">
-          <p>インドネシア人向けに日本を紹介するwebメディア</p>
-        </div>
-    </div>
-    <br>
-    <a data-remodal-action="cancel" class="button">Close</a>
-  </div>
-
-  <div class="remodal" data-remodal-id="contact" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-    <div>
-      <h2 class="modaltitle">Contact</h2>
-      <p>gori@sfc.wide.ad.jp</p>
-    </div>
-    <br>
-    <a data-remodal-action="cancel" class="button">Close</a>
-  </div>
-
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/jquery.backstretch.js"></script>
-  <script src="js/remodal.js"></script>
-  <script>
-        $.backstretch([
-          "img/DSC_0070_Fotor.jpg",
-          "img/CSC_0300.JPG",
-          "img/CSC_0309.JPG"
-        ], {
-            fade: 2000,
-            duration: 4000
-        });
-  </script>
-  <script>
-  $(document).on('opening', '.remodal', function () {
-    console.log('opening');
-  });
-
-  $(document).on('opened', '.remodal', function () {
-    console.log('opened');
-  });
-
-  $(document).on('closing', '.remodal', function (e) {
-    console.log('closing' + (e.reason ? ', reason: ' + e.reason : ''));
-  });
-
-  $(document).on('closed', '.remodal', function (e) {
-    console.log('closed' + (e.reason ? ', reason: ' + e.reason : ''));
-  });
-
-  $(document).on('confirmation', '.remodal', function () {
-    console.log('confirmation');
-  });
-
-  $(document).on('cancellation', '.remodal', function () {
-    console.log('cancellation');
-  });
-
-  //  The second way to initialize:
-  $('[data-remodal-id=modal2]').remodal({
-    modifier: 'with-red-theme'
-  });
-  </script>
+  <footer>
+    © Hiroki Chida
+  </footer>
 </body>
 </html>
