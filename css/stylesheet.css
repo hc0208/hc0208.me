@@ -105,6 +105,10 @@ table {
   font-weight: 100;
 }
 
+th {
+  font-weight: 200;
+}
+
 p {
   color: #fff;
 }
