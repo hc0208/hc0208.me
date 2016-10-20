@@ -194,4 +194,8 @@ footer{
   .icon {
     visibility: hidden;
   }
+
+  footer {
+    padding-bottom: 30px;
+  }
 }
