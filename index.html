@@ -1,61 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio Site</title>
-  <link rel="stylesheet" href="css/stylesheet.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css" >
-  <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/fade_in.js"></script>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-</head>
+---
+layout: default
+---
 
-<body>
-  <header>
-    <div class="menu clearfix">
-      <a class="button" href="index.html">Profile</a>
-      <a class="button" href="work.html">Work</a>
-      <a class="button" href="qiita.html">Qiita</a>
-      <div class="icon">
-        <a href="https://www.instagram.com/hc0208/"><i class="fa fa-instagram fa-2x"></i></a>
-      </div>
-      <div class="icon">
-        <a href="https://www.facebook.com/chida.hiroki"><i class="fa fa-facebook fa-2x"></i></a>
-      </div>
-      <div class="icon">
-        <a href="https://twitter.com/hc0208"><i class="fa fa-twitter fa-2x"></i></a>
-      </div>
-      <div class="icon">
-        <a href="https://github.com/hc070208"><i class="fa fa-github fa-2x"></i></a>
-      </div>
+<div class="hr"></div>
+{% for post in paginator.posts %}
+  <div class="post-collection clearfix">
+    <div class="post-collection_left">
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <ul class="clearfix">
+        {% for category in post.categories %}
+          <li>{{ category }}</li>
+        {% endfor %}
+      </ul>
     </div>
-  </header>
-  <div class="common_sub sub_header">
-    <div class="main_content">
-      <h2>Profile</h2>
-      <hr>
-      <table>
-        <tr>
-          <th align="left">Name : </th>
-          <td align="left">Hiroki Chida</td>
-        </tr>
-        <tr>
-          <th align="left">University : </th>
-          <td align="left">慶應義塾大学</td>
-        </tr>
-        <tr>
-          <th align="left">Skill : </th>
-          <td align="left">Ruby RoR HTML/CSS JS インドネシア語</td>
-        </tr>
-      </table>
-      <p>慶應義塾大学総合政策学部3年。<br>
-      大学2年次に休学しインドネシアのSriwijaya大学へ1年間国費留学。<br>
-      帰国後プログラミングを始め、ベンチャー企業2社でエンジニアとしてインターン中。</p>
-    </div>
+    <span class="post-collection_right">{{ post.date | date:"%Y/%m/%d" }}</span>
   </div>
-
-  <footer>
-    © Hiroki Chida
-  </footer>
-</body>
-</html>
+{% endfor %}
+{% include pagination.html %}

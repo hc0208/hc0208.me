@@ -1,0 +1,14 @@
+title: hc0208.github.io
+
+sass:
+  sass_dir: assets/css
+
+paginate: 10
+
+permalink: /blog/:year/:month/:day
+
+gems:
+  - github-pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
