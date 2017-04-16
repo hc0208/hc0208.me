@@ -21,6 +21,20 @@
   }
 }
 
+.h2 {
+  &_blue {
+    border-left: 5px solid $blue;
+  }
+
+  &_red {
+    border-left: 5px solid $red;
+  }
+
+  &_green {
+    border-left: 5px solid $green;
+  }
+}
+
 .menu {
   li {
     position: fixed;
@@ -110,7 +124,15 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
-      line-height: 1.4;
+      line-height: 1.2;
+    }
+
+    li {
+      float: left;
+      padding-right: 6px;
+      margin-top: 10px;
+      opacity: 0.7;
+      line-height: 1.2;
     }
   }
 
@@ -127,6 +149,7 @@
 }
 
 @media screen and (max-width: 768px){
+
   .wrapper {
     width: 100%;
     margin: 0 auto;
@@ -161,6 +184,46 @@
     &_qiita {
       top: 0;
       background-color: $green;
+    }
+  }
+
+  .post-collection {
+    padding: 30px 5px;
+    border-bottom: 1px solid $gray;
+  }
+
+  .qiita-collection {
+    padding: 30px 5px;
+    border-bottom: 1px solid $gray;
+
+    &_left {
+      float: left;
+      overflow: hidden;
+      width: 100%;
+
+      h1 {
+        margin: 0;
+        font-size: 22px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 1.2;
+      }
+
+      li {
+        float: left;
+        padding-right: 6px;
+        margin-top: 10px;
+        opacity: 0.7;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 1.2;
+      }
+    }
+
+    &_right {
+      display: none;
     }
   }
 }
