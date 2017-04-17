@@ -28,7 +28,7 @@ class InsertQiitaItems {
               </ul>
             </div>
             <span class="qiita-collection_right">
-              ${`${date.getFullYear()}/${month}/${date.getDate()}`}
+              ${date.getFullYear()}/${month}/${date.getDate()}
             </span>
           </div>
         `;
