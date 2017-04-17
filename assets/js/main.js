@@ -5,7 +5,7 @@ class InsertQiitaItems {
   }
 
   execute() {
-    $.getJSON("http://qiita.com/api/v2/users/hc0208/items", function(res){
+    $.getJSON("https://qiita.com/api/v2/users/hc0208/items", function(res){
       $.each(res, function(i, ele){
 
         var date = new Date(ele.created_at);
