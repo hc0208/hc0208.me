@@ -8,6 +8,10 @@
   font-size: 68px;
   font-weight: bold;
   margin: 0;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .sns-icons {
@@ -78,6 +82,10 @@
       margin: 0;
     }
 
+    a {
+      text-decoration: none;
+    }
+
     li {
       float: left;
       padding-right: 6px;
@@ -125,6 +133,10 @@
       text-overflow: ellipsis;
       white-space: nowrap;
       line-height: 1.2;
+    }
+
+    a {
+      text-decoration: none;
     }
 
     li {

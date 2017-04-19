@@ -34,13 +34,13 @@ h4, h5, h6 {
 
 p {
   font-size: 18px;
-  line-height: 1.8em;
+  line-height: 1.9em;
   color: $text;
   margin-bottom: 40px;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 
   &:active, &:link, &:visited {
     color: $black;
@@ -49,6 +49,7 @@ a {
   &:hover {
     opacity: 0.7;
     cursor: pointer;
+    text-decoration: none;
   }
 }
 
@@ -83,7 +84,7 @@ a {
 
   p {
     margin: 0 5px;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.8em;
     color: $text;
     margin-bottom: 40px;
