@@ -11,6 +11,7 @@ permalink: /blog/:year/:month/:day
 
 markdown: kramdown
 gems:
+  - jekyll-sitemap
   - github-pages
 exclude:
   - Gemfile
