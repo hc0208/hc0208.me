@@ -1,19 +1,12 @@
----
-layout: default
----
-
-<div class="hr"></div>
-{% for post in paginator.posts %}
-  <div class="post-collection clearfix">
-    <div class="post-collection_left">
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <ul class="clearfix">
-        {% for category in post.categories %}
-          <li>{{ category }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    <span class="post-collection_right">{{ post.date | date:"%Y/%m/%d" }}</span>
-  </div>
-{% endfor %}
-{% include pagination.html %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>hc0208.github.io</title>
+  <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
