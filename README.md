@@ -1,6 +1,6 @@
 hc0208.github.io
 ====
-github pages + jekyll
+React + webpack + yarn + babel
 
 ## License
 MIT
