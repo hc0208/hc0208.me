@@ -416,7 +416,10 @@ template {
   .sns-icons .common, .sns-icons .twitter, .sns-icons .instagram, .sns-icons .github, .sns-icons .facebook {
     font-size: 30px;
     float: left;
-    margin: 5px; }
+    margin: 5px;
+    position: relative; }
+    .sns-icons .common:hover, .sns-icons .twitter:hover, .sns-icons .instagram:hover, .sns-icons .github:hover, .sns-icons .facebook:hover {
+      opacity: 0.7; }
   .sns-icons .twitter {
     color: #55acee; }
   .sns-icons .instagram {
@@ -434,12 +437,14 @@ template {
   .sns-icons .qiita-wrapper {
     background-color: #4cb10d;
     position: relative;
-    border-radius: 4px;
+    border-radius: 3px;
     width: 25px;
     height: 25px;
     padding: 1px;
     margin: 7px 5px;
     float: left; }
+    .sns-icons .qiita-wrapper:hover {
+      opacity: 0.7; }
 
 .terminal-wrapper {
   margin: 10px 0; }
