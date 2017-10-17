@@ -37,7 +37,7 @@ class Header extends React.Component {
       <header className='header clearfix'>
         <a href='index.html'><img src='src/image/hiroki_chida.jpg' alt='Hiroki Chida' /></a>
         <div className='header-contents'>
-          <h1 className='title'><a href='index.html'>hc0208.github.io</a></h1>
+          <h1 className='title'><a href='index.html'>hc0208.me</a></h1>
           <div className='sns-icons clearfix'>
             <a href='https://twitter.com/hc0208' target='_blank'>
               <FontAwesome name='twitter' className='twitter' />

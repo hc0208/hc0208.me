@@ -1,8 +1,8 @@
 {
-  "name": "hc0208.github.io",
+  "name": "hc0208.me",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:hc0208/hc0208.github.io.git",
+  "repository": "git@github.com:hc0208/hc0208.me.git",
   "author": "hiroki <hiroki22991395@yahoo.co.jp>",
   "license": "MIT",
   "dependencies": {
