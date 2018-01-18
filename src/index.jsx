@@ -103,13 +103,15 @@ class Terminal extends React.Component {
               慶應義塾大学総合政策学部4年。<br />
               大学2年次に休学しインドネシアのSriwijaya大学へ1年間国費留学。<br />
               帰国後プログラミングをはじめ、現在フリーランスエンジニアとして活動中。<br />
-              実装物は[Github](<a href='https://github.com/hc0208' target='_blank'>https://github.com/hc0208</a>)参照。
+              実装物は[Github](<a href='https://github.com/hc0208' target='_blank'>https://github.com/hc0208</a>)参照。<br />
+              ブログは[こちら](<a href='http://hc0208.hatenadiary.jp/' target='_blank'>http://hc0208.hatenadiary.jp/</a>)。
             </p>
             <h2>##&nbsp; Skill</h2>
             <p>
               *&nbsp; Ruby,&nbsp; Ruby on Rails<br />
               *&nbsp; HTML,&nbsp; CSS<br />
-              *&nbsp; 基本情報
+              *&nbsp; 基本情報, 応用情報<br />
+              *&nbsp; インドネシア語
             </p>
             <h2>##&nbsp; Work</h2>
             <p>

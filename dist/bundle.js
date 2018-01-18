@@ -10162,7 +10162,15 @@ var Terminal = function (_React$Component3) {
                 { href: 'https://github.com/hc0208', target: '_blank' },
                 'https://github.com/hc0208'
               ),
-              ')\u53C2\u7167\u3002'
+              ')\u53C2\u7167\u3002',
+              _react2.default.createElement('br', null),
+              '\u30D6\u30ED\u30B0\u306F[\u3053\u3061\u3089](',
+              _react2.default.createElement(
+                'a',
+                { href: 'http://hc0208.hatenadiary.jp/', target: '_blank' },
+                'http://hc0208.hatenadiary.jp/'
+              ),
+              ')\u3002'
             ),
             _react2.default.createElement(
               'h2',
@@ -10176,7 +10184,9 @@ var Terminal = function (_React$Component3) {
               _react2.default.createElement('br', null),
               '*\xA0 HTML,\xA0 CSS',
               _react2.default.createElement('br', null),
-              '*\xA0 \u57FA\u672C\u60C5\u5831'
+              '*\xA0 \u57FA\u672C\u60C5\u5831, \u5FDC\u7528\u60C5\u5831',
+              _react2.default.createElement('br', null),
+              '*\xA0 \u30A4\u30F3\u30C9\u30CD\u30B7\u30A2\u8A9E'
             ),
             _react2.default.createElement(
               'h2',
