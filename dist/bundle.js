@@ -10150,11 +10150,13 @@ var Terminal = function (_React$Component3) {
             _react2.default.createElement(
               'p',
               null,
-              '\u6176\u61C9\u7FA9\u587E\u5927\u5B66\u7DCF\u5408\u653F\u7B56\u5B66\u90E84\u5E74\u3002',
+              '\u5343\u7530\u6D69\u8F1D(23) / \u30D5\u30EA\u30FC\u30E9\u30F3\u30B9\u30A8\u30F3\u30B8\u30CB\u30A2',
+              _react2.default.createElement('br', null),
+              'fever\u7ACB\u3061\u4E0A\u3052\u30E1\u30F3\u30D0\u30FC',
               _react2.default.createElement('br', null),
               '\u5927\u5B662\u5E74\u6B21\u306B\u4F11\u5B66\u3057\u30A4\u30F3\u30C9\u30CD\u30B7\u30A2\u306ESriwijaya\u5927\u5B66\u30781\u5E74\u9593\u56FD\u8CBB\u7559\u5B66\u3002',
               _react2.default.createElement('br', null),
-              '\u5E30\u56FD\u5F8C\u30D7\u30ED\u30B0\u30E9\u30DF\u30F3\u30B0\u3092\u306F\u3058\u3081\u3001\u73FE\u5728\u30D5\u30EA\u30FC\u30E9\u30F3\u30B9\u30A8\u30F3\u30B8\u30CB\u30A2\u3068\u3057\u3066\u6D3B\u52D5\u4E2D\u3002',
+              '\u5185\u5B9A\u5148\u3092\u5168\u3066\u8F9E\u9000\u3057\u65B0\u5352\u30D5\u30EA\u30FC\u30E9\u30F3\u30B9\u30A8\u30F3\u30B8\u30CB\u30A2\u3068\u3057\u3066\u6D3B\u52D5\u4E2D\u3002',
               _react2.default.createElement('br', null),
               '\u5B9F\u88C5\u7269\u306F[Github](',
               _react2.default.createElement(
@@ -10170,7 +10172,16 @@ var Terminal = function (_React$Component3) {
                 { href: 'http://hc0208.hatenadiary.jp/', target: '_blank' },
                 'http://hc0208.hatenadiary.jp/'
               ),
-              ')\u3002'
+              ')\u3002',
+              _react2.default.createElement('br', null),
+              '\u304A\u4ED5\u4E8B\u306E\u4F9D\u983C\u306F[Twitter](',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://twitter.com/hc0208', target: '_blank' },
+                'https://twitter.com/hc0208'
+              ),
+              ')\u307E\u3067\u3002',
+              _react2.default.createElement('br', null)
             ),
             _react2.default.createElement(
               'h2',
@@ -10184,7 +10195,7 @@ var Terminal = function (_React$Component3) {
               _react2.default.createElement('br', null),
               '*\xA0 HTML,\xA0 CSS',
               _react2.default.createElement('br', null),
-              '*\xA0 \u57FA\u672C\u60C5\u5831, \u5FDC\u7528\u60C5\u5831',
+              '*\xA0 \u57FA\u672C\u60C5\u5831\u6280\u8853\u8005, \u5FDC\u7528\u60C5\u5831\u6280\u8853\u8005',
               _react2.default.createElement('br', null),
               '*\xA0 \u30A4\u30F3\u30C9\u30CD\u30B7\u30A2\u8A9E'
             ),
@@ -10196,6 +10207,26 @@ var Terminal = function (_React$Component3) {
             _react2.default.createElement(
               'p',
               null,
+              '*\xA0 [fever](',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://fe-ver.jp/', target: '_blank' },
+                'https://fe-ver.jp/'
+              ),
+              ')',
+              _react2.default.createElement('br', null),
+              '\u221F\xA0 \u30C7\u30B6\u30A4\u30F3\uFF08\u4E00\u90E8\uFF09, \u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9, \u30D0\u30C3\u30AF\u30A8\u30F3\u30C9, \u30A4\u30F3\u30D5\u30E9',
+              _react2.default.createElement('br', null),
+              '*\xA0 [fever\u6295\u7968\u6240](',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://vote.fe-ver.jp/', target: '_blank' },
+                'https://vote.fe-ver.jp/'
+              ),
+              ')',
+              _react2.default.createElement('br', null),
+              '\u221F\xA0 \u30C7\u30B6\u30A4\u30F3, \u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9, \u30D0\u30C3\u30AF\u30A8\u30F3\u30C9, \u30A4\u30F3\u30D5\u30E9',
+              _react2.default.createElement('br', null),
               '*\xA0 [dressbox](',
               _react2.default.createElement(
                 'a',
@@ -10203,6 +10234,8 @@ var Terminal = function (_React$Component3) {
                 'https://dressbox.jp/'
               ),
               ')',
+              _react2.default.createElement('br', null),
+              '\u221F\xA0 \u30C7\u30B6\u30A4\u30F3\uFF08\u4E00\u90E8\uFF09, \u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9, \u30D0\u30C3\u30AF\u30A8\u30F3\u30C9, \u30A4\u30F3\u30D5\u30E9',
               _react2.default.createElement('br', null)
             )
           )
