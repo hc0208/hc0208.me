@@ -508,9 +508,17 @@ template {
   border-radius: 0 0 5px 5px / 0 0 5px 5px;
   -webkit-border-radius: 0 0 5px 5px / 0 0 5px 5px;
   -moz-border-radius: 0 0 5px 5px / 0 0 5px 5px; }
+  .terminal-body a:link, .terminal-body a:visited, .terminal-body a:active {
+    text-decoration: underline; }
 
 .terminal-profile h2 {
   font-size: 16px;
+  margin: 0;
+  padding: 0; }
+
+.terminal-profile h3 {
+  font-size: 13px;
+  line-height: 1.3em;
   margin: 0;
   padding: 0; }
 

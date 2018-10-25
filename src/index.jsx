@@ -98,30 +98,48 @@ class Terminal extends React.Component {
             $&nbsp;<span className='terminal-contents'></span>
           </div>
           <div className={ this.state.showContents ? 'terminal-profile' : 'hide' }>
-            <h2>##&nbsp; Profile</h2>
+            <h2>#&nbsp; Profile</h2>
             <p>
-              千田浩輝(23) / フリーランスエンジニア<br />
-              fever立ち上げメンバー<br />
-              大学2年次に休学しインドネシアのSriwijaya大学へ1年間国費留学。<br />
-              内定先を全て辞退し新卒フリーランスエンジニアとして活動中。<br />
-              実装物は[Github](<a href='https://github.com/hc0208' target='_blank'>https://github.com/hc0208</a>)参照。<br />
-              ブログは[こちら](<a href='http://hc0208.hatenadiary.jp/' target='_blank'>http://hc0208.hatenadiary.jp/</a>)。<br />
-              お仕事の依頼は[Twitter](<a href='https://twitter.com/hc0208' target='_blank'>https://twitter.com/hc0208</a>)まで。<br />
+              千田浩輝(23) / エンジニア<br />
+              コミュニティ通貨発行サービス『fever』cofounder。慶應義塾大学在学中インドネシアSriwijaya大学への1年間の国費留学後、プログラミングをはじめる。その後フリーランスエンジニアとして活動し、デザインからインフラまで0→1フェーズのサービス開発を多くこなす。実装物は<a href='https://github.com/hc0208' target='_blank'>GitHub</a>参照。ブログは<a href='http://hc0208.hatenadiary.jp/' target='_blank'>こちら</a>。お仕事の依頼は<a href='https://twitter.com/hc0208' target='_blank'>Twitter</a>まで。<br />
             </p>
-            <h2>##&nbsp; Skill</h2>
+            <h2>#&nbsp; Skill</h2>
+            <h3>##&nbsp; 技術(実務レベル)</h3>
             <p>
               *&nbsp; Ruby,&nbsp; Ruby on Rails<br />
-              *&nbsp; HTML,&nbsp; CSS<br />
-              *&nbsp; 基本情報技術者, 応用情報技術者<br />
+              *&nbsp; Java,&nbsp; Spring Framework<br />
+              *&nbsp; HTML,&nbsp; CSS,&nbsp; SCSS<br />
+              *&nbsp; git<br />
+              *&nbsp; MySQL<br />
+              *&nbsp; Docker<br />
+              *&nbsp; GCP, AWS<br />
+            </p>
+            <h3>##&nbsp; 技術(趣味レベル)</h3>
+            <p>
+              *&nbsp; アセンブラ<br />
+              *&nbsp; C<br />
+              *&nbsp; Python<br />
+              *&nbsp; Go<br />
+              *&nbsp; NoSQL<br />
+              *&nbsp; Microservices<br />
+              *&nbsp; Ethereum,&nbsp; Solidity<br />
+            </p>
+            <h3>##&nbsp; 資格</h3>
+            <p>
+              *&nbsp; 基本情報技術者<br />
+              *&nbsp; 応用情報技術者
+            </p>
+            <h3>##&nbsp; その他</h3>
+            <p>
               *&nbsp; インドネシア語
             </p>
-            <h2>##&nbsp; Work</h2>
+            <h2>#&nbsp; Work</h2>
             <p>
-              *&nbsp; [fever](<a href='https://fe-ver.jp/' target='_blank'>https://fe-ver.jp/</a>)<br />
+              *&nbsp; <a href='https://fe-ver.jp/' target='_blank'>fever</a><br />
               ∟&nbsp; デザイン（一部）, フロントエンド, バックエンド, インフラ<br />
-              *&nbsp; [fever投票所](<a href='https://vote.fe-ver.jp/' target='_blank'>https://vote.fe-ver.jp/</a>)<br />
+              *&nbsp; <a href='https://vote.fe-ver.jp/' target='_blank'>fever投票所</a><br />
               ∟&nbsp; デザイン, フロントエンド, バックエンド, インフラ<br />
-              *&nbsp; [dressbox](<a href='https://dressbox.jp/' target='_blank'>https://dressbox.jp/</a>)<br />
+              *&nbsp; <a href='https://dressbox.jp/' target='_blank'>dressbox</a><br />
               ∟&nbsp; デザイン（一部）, フロントエンド, バックエンド, インフラ<br />
             </p>
           </div>
