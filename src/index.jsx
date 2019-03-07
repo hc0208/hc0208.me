@@ -100,8 +100,8 @@ class Terminal extends React.Component {
           <div className={ this.state.showContents ? 'terminal-profile' : 'hide' }>
             <h2>#&nbsp; Profile</h2>
             <p>
-              千田浩輝(23) / エンジニア<br />
-              コミュニティ通貨発行サービス『fever』cofounder。慶應義塾大学在学中インドネシアSriwijaya大学への1年間の国費留学後、プログラミングをはじめる。その後フリーランスエンジニアとして活動し、デザインからインフラまで0→1フェーズのサービス開発を多くこなす。実装物は<a href='https://github.com/hc0208' target='_blank'>GitHub</a>参照。ブログは<a href='http://hc0208.hatenadiary.jp/' target='_blank'>こちら</a>。お仕事の依頼は<a href='https://twitter.com/hc0208' target='_blank'>Twitter</a>まで。<br />
+              千田浩輝(24) / エンジニア<br />
+              株式会社Asobica執行役員。慶應義塾大学在学中インドネシアSriwijaya大学への1年間の国費留学後、プログラミングをはじめる。その後フリーランスエンジニアとして活動し、デザインからインフラまで0→1フェーズのサービス開発を多くこなす。実装物は<a href='https://github.com/hc0208' target='_blank'>GitHub</a>参照。ブログは<a href='http://hc0208.hatenadiary.jp/' target='_blank'>こちら</a>。お仕事の依頼は<a href='https://twitter.com/hc0208' target='_blank'>Twitter</a>まで。<br />
             </p>
             <h2>#&nbsp; Skill</h2>
             <h3>##&nbsp; 技術(実務レベル)</h3>
@@ -109,6 +109,7 @@ class Terminal extends React.Component {
               *&nbsp; Ruby,&nbsp; Ruby on Rails<br />
               *&nbsp; Java,&nbsp; Spring Framework<br />
               *&nbsp; HTML,&nbsp; CSS,&nbsp; SCSS<br />
+              *&nbsp; JavaScript,&nbsp; React,&nbsp; Redux<br />
               *&nbsp; git<br />
               *&nbsp; MySQL<br />
               *&nbsp; Docker<br />
