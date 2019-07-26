@@ -10426,19 +10426,13 @@ var Terminal = function (_React$Component3) {
               null,
               '\u5343\u7530\u6D69\u8F1D(24) / \u30A8\u30F3\u30B8\u30CB\u30A2',
               _react2.default.createElement('br', null),
-              '\u682A\u5F0F\u4F1A\u793EAsobica\u57F7\u884C\u5F79\u54E1\u3002\u6176\u61C9\u7FA9\u587E\u5927\u5B66\u5728\u5B66\u4E2D\u30A4\u30F3\u30C9\u30CD\u30B7\u30A2Sriwijaya\u5927\u5B66\u3078\u306E1\u5E74\u9593\u306E\u56FD\u8CBB\u7559\u5B66\u5F8C\u3001\u30D7\u30ED\u30B0\u30E9\u30DF\u30F3\u30B0\u3092\u306F\u3058\u3081\u308B\u3002\u305D\u306E\u5F8C\u30D5\u30EA\u30FC\u30E9\u30F3\u30B9\u30A8\u30F3\u30B8\u30CB\u30A2\u3068\u3057\u3066\u6D3B\u52D5\u3057\u3001\u30C7\u30B6\u30A4\u30F3\u304B\u3089\u30A4\u30F3\u30D5\u30E9\u307E\u30670\u21921\u30D5\u30A7\u30FC\u30BA\u306E\u30B5\u30FC\u30D3\u30B9\u958B\u767A\u3092\u591A\u304F\u3053\u306A\u3059\u3002\u5B9F\u88C5\u7269\u306F',
+              '\u682A\u5F0F\u4F1A\u793EAsobica\u57F7\u884C\u5F79\u54E1\u3002\u6176\u61C9\u7FA9\u587E\u5927\u5B66\u5728\u5B66\u4E2D\u30A4\u30F3\u30C9\u30CD\u30B7\u30A2Sriwijaya\u5927\u5B66\u3078\u306E1\u5E74\u9593\u306E\u56FD\u8CBB\u7559\u5B66\u5F8C\u3001\u30D7\u30ED\u30B0\u30E9\u30DF\u30F3\u30B0\u3092\u306F\u3058\u3081\u308B\u3002\u305D\u306E\u5F8C\u30D5\u30EA\u30FC\u30E9\u30F3\u30B9\u30A8\u30F3\u30B8\u30CB\u30A2\u3068\u3057\u3066\u6D3B\u52D5\u3057\u3001\u30C7\u30B6\u30A4\u30F3\u304B\u3089\u30A4\u30F3\u30D5\u30E9\u307E\u30670\u21921\u30D5\u30A7\u30FC\u30BA\u306E\u30B5\u30FC\u30D3\u30B9\u958B\u767A\u3092\u591A\u304F\u3053\u306A\u3059\u3002\u8DA3\u5473\u306F\u8AAD\u66F8\u3001\u7B4B\u30C8\u30EC\u3001\u7AF6\u30D7\u30ED\u3002\u5B9F\u88C5\u7269\u306F',
               _react2.default.createElement(
                 'a',
                 { href: 'https://github.com/hc0208', target: '_blank' },
                 'GitHub'
               ),
-              '\u53C2\u7167\u3002\u30D6\u30ED\u30B0\u306F',
-              _react2.default.createElement(
-                'a',
-                { href: 'http://hc0208.hatenadiary.jp/', target: '_blank' },
-                '\u3053\u3061\u3089'
-              ),
-              '\u3002\u304A\u4ED5\u4E8B\u306E\u4F9D\u983C\u306F',
+              '\u53C2\u7167\u3002\u304A\u4ED5\u4E8B\u306E\u4F9D\u983C\u306F',
               _react2.default.createElement(
                 'a',
                 { href: 'https://twitter.com/hc0208', target: '_blank' },
@@ -10475,6 +10469,8 @@ var Terminal = function (_React$Component3) {
               '*\xA0 Docker',
               _react2.default.createElement('br', null),
               '*\xA0 GCP, AWS',
+              _react2.default.createElement('br', null),
+              '*\xA0 Vim',
               _react2.default.createElement('br', null)
             ),
             _react2.default.createElement(
@@ -10487,7 +10483,7 @@ var Terminal = function (_React$Component3) {
               null,
               '*\xA0 \u30A2\u30BB\u30F3\u30D6\u30E9',
               _react2.default.createElement('br', null),
-              '*\xA0 C',
+              '*\xA0 C, C++',
               _react2.default.createElement('br', null),
               '*\xA0 Python',
               _react2.default.createElement('br', null),
@@ -10497,7 +10493,9 @@ var Terminal = function (_React$Component3) {
               _react2.default.createElement('br', null),
               '*\xA0 Microservices',
               _react2.default.createElement('br', null),
-              '*\xA0 Ethereum,\xA0 Solidity',
+              '*\xA0 Ethereum,\xA0Solidity,\xA0Vyper',
+              _react2.default.createElement('br', null),
+              '*\xA0 Ubuntu,\xA0Arch Linux',
               _react2.default.createElement('br', null)
             ),
             _react2.default.createElement(
@@ -10528,8 +10526,22 @@ var Terminal = function (_React$Component3) {
               '#\xA0 Work'
             ),
             _react2.default.createElement(
+              'h3',
+              null,
+              '##\xA0 Launch Projects'
+            ),
+            _react2.default.createElement(
               'p',
               null,
+              '*\xA0 ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://coorum.jp/', target: '_blank' },
+                'coorum'
+              ),
+              _react2.default.createElement('br', null),
+              '\u221F\xA0 \u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9, \u30D0\u30C3\u30AF\u30A8\u30F3\u30C9, \u30A4\u30F3\u30D5\u30E9',
+              _react2.default.createElement('br', null),
               '*\xA0 ',
               _react2.default.createElement(
                 'a',
@@ -10556,6 +10568,22 @@ var Terminal = function (_React$Component3) {
               ),
               _react2.default.createElement('br', null),
               '\u221F\xA0 \u30C7\u30B6\u30A4\u30F3\uFF08\u4E00\u90E8\uFF09, \u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9, \u30D0\u30C3\u30AF\u30A8\u30F3\u30C9, \u30A4\u30F3\u30D5\u30E9',
+              _react2.default.createElement('br', null)
+            ),
+            _react2.default.createElement(
+              'h3',
+              null,
+              '##\xA0 OSS(contribute)'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              '*\xA0 ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/rails/webpacker', target: '_blank' },
+                'rails/webpacker'
+              ),
               _react2.default.createElement('br', null)
             )
           )

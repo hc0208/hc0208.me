@@ -101,7 +101,7 @@ class Terminal extends React.Component {
             <h2>#&nbsp; Profile</h2>
             <p>
               千田浩輝(24) / エンジニア<br />
-              株式会社Asobica執行役員。慶應義塾大学在学中インドネシアSriwijaya大学への1年間の国費留学後、プログラミングをはじめる。その後フリーランスエンジニアとして活動し、デザインからインフラまで0→1フェーズのサービス開発を多くこなす。実装物は<a href='https://github.com/hc0208' target='_blank'>GitHub</a>参照。ブログは<a href='http://hc0208.hatenadiary.jp/' target='_blank'>こちら</a>。お仕事の依頼は<a href='https://twitter.com/hc0208' target='_blank'>Twitter</a>まで。<br />
+              株式会社Asobica執行役員。慶應義塾大学在学中インドネシアSriwijaya大学への1年間の国費留学後、プログラミングをはじめる。その後フリーランスエンジニアとして活動し、デザインからインフラまで0→1フェーズのサービス開発を多くこなす。趣味は読書、筋トレ、競プロ。実装物は<a href='https://github.com/hc0208' target='_blank'>GitHub</a>参照。お仕事の依頼は<a href='https://twitter.com/hc0208' target='_blank'>Twitter</a>まで。<br />
             </p>
             <h2>#&nbsp; Skill</h2>
             <h3>##&nbsp; 技術(実務レベル)</h3>
@@ -114,16 +114,18 @@ class Terminal extends React.Component {
               *&nbsp; MySQL<br />
               *&nbsp; Docker<br />
               *&nbsp; GCP, AWS<br />
+              *&nbsp; Vim<br />
             </p>
             <h3>##&nbsp; 技術(趣味レベル)</h3>
             <p>
               *&nbsp; アセンブラ<br />
-              *&nbsp; C<br />
+              *&nbsp; C, C++<br />
               *&nbsp; Python<br />
               *&nbsp; Go<br />
               *&nbsp; NoSQL<br />
               *&nbsp; Microservices<br />
-              *&nbsp; Ethereum,&nbsp; Solidity<br />
+              *&nbsp; Ethereum,&nbsp;Solidity,&nbsp;Vyper<br />
+              *&nbsp; Ubuntu,&nbsp;Arch Linux<br />
             </p>
             <h3>##&nbsp; 資格</h3>
             <p>
@@ -135,13 +137,20 @@ class Terminal extends React.Component {
               *&nbsp; インドネシア語
             </p>
             <h2>#&nbsp; Work</h2>
+            <h3>##&nbsp; Launch Projects</h3>
             <p>
+              *&nbsp; <a href='https://coorum.jp/' target='_blank'>coorum</a><br />
+              ∟&nbsp; フロントエンド, バックエンド, インフラ<br />
               *&nbsp; <a href='https://fe-ver.jp/' target='_blank'>fever</a><br />
               ∟&nbsp; デザイン（一部）, フロントエンド, バックエンド, インフラ<br />
               *&nbsp; <a href='https://vote.fe-ver.jp/' target='_blank'>fever投票所</a><br />
               ∟&nbsp; デザイン, フロントエンド, バックエンド, インフラ<br />
               *&nbsp; <a href='https://dressbox.jp/' target='_blank'>dressbox</a><br />
               ∟&nbsp; デザイン（一部）, フロントエンド, バックエンド, インフラ<br />
+            </p>
+            <h3>##&nbsp; OSS(contribute)</h3>
+            <p>
+              *&nbsp; <a href='https://github.com/rails/webpacker' target='_blank'>rails/webpacker</a><br />
             </p>
           </div>
         </div>
