@@ -10493,9 +10493,9 @@ var Terminal = function (_React$Component3) {
               _react2.default.createElement('br', null),
               '*\xA0 Microservices',
               _react2.default.createElement('br', null),
-              '*\xA0 Ethereum,\xA0Solidity,\xA0Vyper',
+              '*\xA0 Ethereum,\xA0 Solidity,\xA0 Vyper',
               _react2.default.createElement('br', null),
-              '*\xA0 Ubuntu,\xA0Arch Linux',
+              '*\xA0 Ubuntu,\xA0 Arch Linux',
               _react2.default.createElement('br', null)
             ),
             _react2.default.createElement(
@@ -10583,6 +10583,13 @@ var Terminal = function (_React$Component3) {
                 'a',
                 { href: 'https://github.com/rails/webpacker', target: '_blank' },
                 'rails/webpacker'
+              ),
+              _react2.default.createElement('br', null),
+              '*\xA0 ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/rails/rails', target: '_blank' },
+                'rails/rails'
               ),
               _react2.default.createElement('br', null)
             )

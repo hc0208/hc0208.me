@@ -124,8 +124,8 @@ class Terminal extends React.Component {
               *&nbsp; Go<br />
               *&nbsp; NoSQL<br />
               *&nbsp; Microservices<br />
-              *&nbsp; Ethereum,&nbsp;Solidity,&nbsp;Vyper<br />
-              *&nbsp; Ubuntu,&nbsp;Arch Linux<br />
+              *&nbsp; Ethereum,&nbsp; Solidity,&nbsp; Vyper<br />
+              *&nbsp; Ubuntu,&nbsp; Arch Linux<br />
             </p>
             <h3>##&nbsp; 資格</h3>
             <p>
@@ -151,6 +151,7 @@ class Terminal extends React.Component {
             <h3>##&nbsp; OSS(contribute)</h3>
             <p>
               *&nbsp; <a href='https://github.com/rails/webpacker' target='_blank'>rails/webpacker</a><br />
+              *&nbsp; <a href='https://github.com/rails/rails' target='_blank'>rails/rails</a><br />
             </p>
           </div>
         </div>
