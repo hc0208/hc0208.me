@@ -145,8 +145,6 @@ class Terminal extends React.Component {
               ∟&nbsp; デザイン（一部）, フロントエンド, バックエンド, インフラ<br />
               *&nbsp; <a href='https://vote.fe-ver.jp/' target='_blank'>fever投票所</a><br />
               ∟&nbsp; デザイン, フロントエンド, バックエンド, インフラ<br />
-              *&nbsp; <a href='https://dressbox.jp/' target='_blank'>dressbox</a><br />
-              ∟&nbsp; デザイン（一部）, フロントエンド, バックエンド, インフラ<br />
             </p>
             <h3>##&nbsp; OSS(contribute)</h3>
             <p>

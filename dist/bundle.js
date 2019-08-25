@@ -10559,15 +10559,6 @@ var Terminal = function (_React$Component3) {
               ),
               _react2.default.createElement('br', null),
               '\u221F\xA0 \u30C7\u30B6\u30A4\u30F3, \u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9, \u30D0\u30C3\u30AF\u30A8\u30F3\u30C9, \u30A4\u30F3\u30D5\u30E9',
-              _react2.default.createElement('br', null),
-              '*\xA0 ',
-              _react2.default.createElement(
-                'a',
-                { href: 'https://dressbox.jp/', target: '_blank' },
-                'dressbox'
-              ),
-              _react2.default.createElement('br', null),
-              '\u221F\xA0 \u30C7\u30B6\u30A4\u30F3\uFF08\u4E00\u90E8\uFF09, \u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9, \u30D0\u30C3\u30AF\u30A8\u30F3\u30C9, \u30A4\u30F3\u30D5\u30E9',
               _react2.default.createElement('br', null)
             ),
             _react2.default.createElement(
