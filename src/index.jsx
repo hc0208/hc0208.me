@@ -101,7 +101,7 @@ class Terminal extends React.Component {
             <h2>#&nbsp; Profile</h2>
             <p>
               千田浩輝(24) / エンジニア<br />
-              株式会社Asobica執行役員。慶應義塾大学在学中インドネシアSriwijaya大学への1年間の国費留学後、プログラミングをはじめる。その後フリーランスエンジニアとして活動し、デザインからインフラまで0→1フェーズのサービス開発を多くこなす。趣味は読書、筋トレ、競プロ。実装物は<a href='https://github.com/hc0208' target='_blank'>GitHub</a>参照。お仕事の依頼は<a href='https://twitter.com/hc0208' target='_blank'>Twitter</a>まで。<br />
+              株式会社Asobica執行役員。慶應義塾大学在学中インドネシアSriwijaya大学への1年間の国費留学後、プログラミングをはじめる。その後フリーランスエンジニアとして活動し、デザインからインフラまで0→1フェーズのサービス開発を多くこなす。趣味は読書、筋トレ。実装物は<a href='https://github.com/hc0208' target='_blank'>GitHub</a>参照。お仕事の依頼は<a href='https://twitter.com/hc0208' target='_blank'>Twitter</a>まで。<br />
             </p>
             <h2>#&nbsp; Skill</h2>
             <h3>##&nbsp; 技術(実務レベル)</h3>
