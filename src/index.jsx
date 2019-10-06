@@ -4,7 +4,7 @@ import FontAwesome from 'react-fontawesome';
 import Typed from 'typed.js';
 import './styles/main.scss';
 import './image/loading.gif';
-import './image/chidahiroki.jpg';
+import './image/chida_hiroki.jpg';
 
 class Loader extends React.Component {
   constructor(props) {
@@ -35,7 +35,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className='header clearfix'>
-        <a href='index.html'><img src='src/image/chidahiroki.jpg' alt='Hiroki Chida' /></a>
+        <a href='index.html'><img src='src/image/chida_hiroki.jpg' alt='Hiroki Chida' /></a>
         <div className='header-contents'>
           <h1 className='title'><a href='index.html'>hc0208.me</a></h1>
           <div className='sns-icons clearfix'>
