@@ -100,7 +100,7 @@ class Terminal extends React.Component {
           <div className={ this.state.showContents ? 'terminal-profile' : 'hide' }>
             <h2>#&nbsp; Profile</h2>
             <p>
-              千田浩輝(25) / エンジニア, デザイナー<br />
+              Hiroki Chida(25) / エンジニア, デザイナー<br />
               経歴：ベンチャー企業 → フリーランスエンジニア → ベンチャー企業執行役員 → SIer
             </p>
             <h2>#&nbsp; Skill</h2>
@@ -140,6 +140,11 @@ class Terminal extends React.Component {
             <p>
               *&nbsp; <a href='https://github.com/rails/webpacker' target='_blank'>rails/webpacker</a><br />
               *&nbsp; <a href='https://github.com/rails/rails' target='_blank'>rails/rails</a><br />
+            </p>
+            <h2>#&nbsp; Contact</h2>
+            <p>
+              *&nbsp; <a href='https://twitter.com/hc0208' target='_blank'>Twitter</a><br />
+              *&nbsp; hiroki.chida28@gmail.com 
             </p>
           </div>
         </div>
