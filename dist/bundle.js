@@ -10402,7 +10402,7 @@ var Terminal = function (_React$Component3) {
           _react2.default.createElement('div', { className: 'red' }),
           _react2.default.createElement('div', { className: 'yellow' }),
           _react2.default.createElement('div', { className: 'green' }),
-          'bash'
+          'zsh'
         ),
         _react2.default.createElement(
           'div',
@@ -10424,7 +10424,7 @@ var Terminal = function (_React$Component3) {
             _react2.default.createElement(
               'p',
               null,
-              '\u5343\u7530\u6D69\u8F1D(24) / \u30A8\u30F3\u30B8\u30CB\u30A2',
+              '\u5343\u7530\u6D69\u8F1D(25) / \u30A8\u30F3\u30B8\u30CB\u30A2, \u30C7\u30B6\u30A4\u30CA\u30FC',
               _react2.default.createElement('br', null),
               '\u7D4C\u6B74\uFF1A\u30D9\u30F3\u30C1\u30E3\u30FC\u4F01\u696D \u2192 \u30D5\u30EA\u30FC\u30E9\u30F3\u30B9\u30A8\u30F3\u30B8\u30CB\u30A2 \u2192 \u30D9\u30F3\u30C1\u30E3\u30FC\u4F01\u696D\u57F7\u884C\u5F79\u54E1 \u2192 SIer'
             ),

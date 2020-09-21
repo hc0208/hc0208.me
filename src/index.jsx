@@ -91,7 +91,7 @@ class Terminal extends React.Component {
       <div className='terminal-wrapper'>
         <div className='terminal-header'>
           <div className='red'></div><div className='yellow'></div><div className='green'></div>
-          bash
+          zsh 
         </div>
         <div className='terminal-body'>
           <div className={ this.state.showContents ? 'hide' : null }>
@@ -100,7 +100,7 @@ class Terminal extends React.Component {
           <div className={ this.state.showContents ? 'terminal-profile' : 'hide' }>
             <h2>#&nbsp; Profile</h2>
             <p>
-              千田浩輝(24) / エンジニア<br />
+              千田浩輝(25) / エンジニア, デザイナー<br />
               経歴：ベンチャー企業 → フリーランスエンジニア → ベンチャー企業執行役員 → SIer
             </p>
             <h2>#&nbsp; Skill</h2>
